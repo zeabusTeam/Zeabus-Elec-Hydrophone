@@ -1,4 +1,4 @@
-update=Wednesday, 29 November 2017 'pmt' 16:32:48
+update=1/6/2018 4:23:43 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,19 +25,9 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
-LibDir=../Zeabus-Elec-Kicad-Library
+LibDir=../zeabus-elec/Circuit/Kicad-Libraries/zeabus.pretty;../zeabus-elec/Circuit/Kicad-Libraries
 [eeschema/libraries]
 LibName1=Zeabus-Elec-Hydrophone-rescue
 LibName2=power
@@ -71,4 +61,15 @@ LibName29=contrib
 LibName30=valves
 LibName31=zeabus
 LibName32=ftdi
+LibName33=D:/workspace/zeabus-elec/Circuit/Kicad-Libraries/zeabus
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 
