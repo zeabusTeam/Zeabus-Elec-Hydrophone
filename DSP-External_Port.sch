@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:Zeabus-Elec-Hydrophone-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,8 +28,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:zeabus
 LIBS:ftdi
+LIBS:zeabus
 LIBS:Zeabus-Elec-Hydrophone-cache
 EELAYER 25 0
 EELAYER END
