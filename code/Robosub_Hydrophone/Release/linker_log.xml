@@ -1,0 +1,307 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Analog Devices/CrossCore Embedded Studio 2.2.0/System/linker_log.xsl"?>
+<DOCUMENT gen_time='Fri Jun 17 13:48:43 2016
+'>
+<MSG id='0422D8F8' mid='li3201' type='Informational' suppressed=''>
+<TEXT><![CDATA[Successfully eliminated 68335 bytes in processor 'p0'
+]]></TEXT>
+<EXTENDED_INFO><![CDATA[Eliminated object (___eh_gdt, ___eh_gdt+0x1) of size 5 bytes from 'app_startup.doj(.gdt)'
+Eliminated object (___argv_string, ___argv_string+0xa) of size 50 bytes from '.\src\Robosub_Hydrophone.doj(seg_dmda)'
+Eliminated object (_test_gain, _test_gain+0x1) of size 5 bytes from '.\src\Robosub_Hydrophone.doj(seg_dmda)'
+Eliminated object (_scope_mode, _scope_mode+0x1) of size 5 bytes from '.\src\Robosub_Hydrophone.doj(seg_dmda)'
+Eliminated object (_I2S_rx1a_buf, _I2S_rx1a_buf+0x2) of size 10 bytes from '.\src\Robosub_Hydrophone.doj(seg_dmda)'
+Eliminated object (_I2S_rx1b_buf, _I2S_rx1b_buf+0x2) of size 10 bytes from '.\src\Robosub_Hydrophone.doj(seg_dmda)'
+Eliminated object (_I2S_tx0a_buf, _I2S_tx0a_buf+0x2) of size 10 bytes from '.\src\Robosub_Hydrophone.doj(seg_dmda)'
+Eliminated object (_I2S_tx0b_buf, _I2S_tx0b_buf+0x2) of size 10 bytes from '.\src\Robosub_Hydrophone.doj(seg_dmda)'
+Eliminated object (_I2S_tx2a_buf, _I2S_tx2a_buf+0x2) of size 10 bytes from '.\src\Robosub_Hydrophone.doj(seg_dmda)'
+Eliminated object (_I2S_tx2b_buf, _I2S_tx2b_buf+0x2) of size 10 bytes from '.\src\Robosub_Hydrophone.doj(seg_dmda)'
+Eliminated object (_TDM_rx1a_buf, _TDM_rx1a_buf+0x4) of size 20 bytes from '.\src\Robosub_Hydrophone.doj(seg_dmda)'
+Eliminated object (_TDM_tx0a_buf, _TDM_tx0a_buf+0x4) of size 20 bytes from '.\src\Robosub_Hydrophone.doj(seg_dmda)'
+Eliminated object (_TDM_tx0b_buf, _TDM_tx0b_buf+0x4) of size 20 bytes from '.\src\Robosub_Hydrophone.doj(seg_dmda)'
+Eliminated object (_TDM_tx2a_buf, _TDM_tx2a_buf+0x4) of size 20 bytes from '.\src\Robosub_Hydrophone.doj(seg_dmda)'
+Eliminated object (_TDM_tx2b_buf, _TDM_tx2b_buf+0x4) of size 20 bytes from '.\src\Robosub_Hydrophone.doj(seg_dmda)'
+Eliminated object (_THRES_FRONT, _THRES_FRONT+0x1) of size 6 bytes from '.\src\Robosub_Hydrophone.doj(seg_pmda)'
+Eliminated object (_THRES_PWR, _THRES_PWR+0x1) of size 6 bytes from '.\src\Robosub_Hydrophone.doj(seg_pmda)'
+Eliminated object (_UART_RXTX_TCB, ._UART_RXTX_TCB.end) of size 20 bytes from '.\src\UART.doj(seg_dmda)'
+Eliminated object (_UART_DEBUG_BUFFER, _UART_DEBUG_BUFFER+0x100) of size 1280 bytes from '.\src\UART.doj(seg_dmda)'
+Eliminated object (_UART_DEBUG_BUFFER_RX, _UART_DEBUG_BUFFER_RX+0x100) of size 1280 bytes from '.\src\UART.doj(seg_dmda)'
+Eliminated object (_I2S_rx1a_buf, _I2S_rx1a_buf+0x2) of size 10 bytes from '.\src\UART.doj(seg_dmda)'
+Eliminated object (_I2S_rx1b_buf, _I2S_rx1b_buf+0x2) of size 10 bytes from '.\src\UART.doj(seg_dmda)'
+Eliminated object (_I2S_tx0a_buf, _I2S_tx0a_buf+0x2) of size 10 bytes from '.\src\UART.doj(seg_dmda)'
+Eliminated object (_I2S_tx0b_buf, _I2S_tx0b_buf+0x2) of size 10 bytes from '.\src\UART.doj(seg_dmda)'
+Eliminated object (_I2S_tx2a_buf, _I2S_tx2a_buf+0x2) of size 10 bytes from '.\src\UART.doj(seg_dmda)'
+Eliminated object (_I2S_tx2b_buf, _I2S_tx2b_buf+0x2) of size 10 bytes from '.\src\UART.doj(seg_dmda)'
+Eliminated object (_TDM_rx1a_buf, _TDM_rx1a_buf+0x4) of size 20 bytes from '.\src\UART.doj(seg_dmda)'
+Eliminated object (_TDM_tx0a_buf, _TDM_tx0a_buf+0x4) of size 20 bytes from '.\src\UART.doj(seg_dmda)'
+Eliminated object (_TDM_tx0b_buf, _TDM_tx0b_buf+0x4) of size 20 bytes from '.\src\UART.doj(seg_dmda)'
+Eliminated object (_TDM_tx2a_buf, _TDM_tx2a_buf+0x4) of size 20 bytes from '.\src\UART.doj(seg_dmda)'
+Eliminated object (_TDM_tx2b_buf, _TDM_tx2b_buf+0x4) of size 20 bytes from '.\src\UART.doj(seg_dmda)'
+Eliminated object (_UART_ESTIMATEBEARING_PRINT, ._UART_ESTIMATEBEARING_PRINT.end) of size 72 bytes from '.\src\UART.doj(seg_swco)'
+Eliminated object (_I2S_rx1a_buf, _I2S_rx1a_buf+0x2) of size 10 bytes from '.\src\helper.doj(seg_dmda)'
+Eliminated object (_I2S_rx1b_buf, _I2S_rx1b_buf+0x2) of size 10 bytes from '.\src\helper.doj(seg_dmda)'
+Eliminated object (_I2S_tx0a_buf, _I2S_tx0a_buf+0x2) of size 10 bytes from '.\src\helper.doj(seg_dmda)'
+Eliminated object (_I2S_tx0b_buf, _I2S_tx0b_buf+0x2) of size 10 bytes from '.\src\helper.doj(seg_dmda)'
+Eliminated object (_I2S_tx2a_buf, _I2S_tx2a_buf+0x2) of size 10 bytes from '.\src\helper.doj(seg_dmda)'
+Eliminated object (_I2S_tx2b_buf, _I2S_tx2b_buf+0x2) of size 10 bytes from '.\src\helper.doj(seg_dmda)'
+Eliminated object (_TDM_rx1a_buf, _TDM_rx1a_buf+0x4) of size 20 bytes from '.\src\helper.doj(seg_dmda)'
+Eliminated object (_TDM_tx0a_buf, _TDM_tx0a_buf+0x4) of size 20 bytes from '.\src\helper.doj(seg_dmda)'
+Eliminated object (_TDM_tx0b_buf, _TDM_tx0b_buf+0x4) of size 20 bytes from '.\src\helper.doj(seg_dmda)'
+Eliminated object (_TDM_tx2a_buf, _TDM_tx2a_buf+0x4) of size 20 bytes from '.\src\helper.doj(seg_dmda)'
+Eliminated object (_TDM_tx2b_buf, _TDM_tx2b_buf+0x4) of size 20 bytes from '.\src\helper.doj(seg_dmda)'
+Eliminated object (_Block_Float_To_Fixed, ._Block_Float_To_Fixed.end) of size 78 bytes from '.\src\helper.doj(seg_swco)'
+Eliminated object (_Block_Fixed_To_Float, ._Block_Fixed_To_Float.end) of size 62 bytes from '.\src\helper.doj(seg_swco)'
+Eliminated object (_I2S_rx1a_buf, _I2S_rx1a_buf+0x2) of size 10 bytes from '.\src\hw_accel.doj(seg_dmda)'
+Eliminated object (_I2S_rx1b_buf, _I2S_rx1b_buf+0x2) of size 10 bytes from '.\src\hw_accel.doj(seg_dmda)'
+Eliminated object (_I2S_tx0a_buf, _I2S_tx0a_buf+0x2) of size 10 bytes from '.\src\hw_accel.doj(seg_dmda)'
+Eliminated object (_I2S_tx0b_buf, _I2S_tx0b_buf+0x2) of size 10 bytes from '.\src\hw_accel.doj(seg_dmda)'
+Eliminated object (_I2S_tx2a_buf, _I2S_tx2a_buf+0x2) of size 10 bytes from '.\src\hw_accel.doj(seg_dmda)'
+Eliminated object (_I2S_tx2b_buf, _I2S_tx2b_buf+0x2) of size 10 bytes from '.\src\hw_accel.doj(seg_dmda)'
+Eliminated object (_TDM_rx1a_buf, _TDM_rx1a_buf+0x4) of size 20 bytes from '.\src\hw_accel.doj(seg_dmda)'
+Eliminated object (_TDM_tx0a_buf, _TDM_tx0a_buf+0x4) of size 20 bytes from '.\src\hw_accel.doj(seg_dmda)'
+Eliminated object (_TDM_tx0b_buf, _TDM_tx0b_buf+0x4) of size 20 bytes from '.\src\hw_accel.doj(seg_dmda)'
+Eliminated object (_TDM_tx2a_buf, _TDM_tx2a_buf+0x4) of size 20 bytes from '.\src\hw_accel.doj(seg_dmda)'
+Eliminated object (_TDM_tx2b_buf, _TDM_tx2b_buf+0x4) of size 20 bytes from '.\src\hw_accel.doj(seg_dmda)'
+Eliminated object (_Init_FIR, ._Init_FIR.end) of size 144 bytes from '.\src\hw_accel.doj(seg_swco)'
+Eliminated object (_ConfigParam1939, _ConfigParam1939+0x42) of size 330 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_I2S_rcv1a_tcb, ._I2S_rcv1a_tcb.end) of size 40 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_I2S_rcv1b_tcb, ._I2S_rcv1b_tcb.end) of size 40 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_I2S_xmit0a_tcb, ._I2S_xmit0a_tcb.end) of size 40 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_I2S_xmit0b_tcb, ._I2S_xmit0b_tcb.end) of size 40 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_I2S_xmit2a_tcb, ._I2S_xmit2a_tcb.end) of size 40 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_I2S_xmit2b_tcb, ._I2S_xmit2b_tcb.end) of size 40 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_LockCount, _LockCount+0x1) of size 5 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_I2S_rx1a_buf, _I2S_rx1a_buf+0x2) of size 10 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_I2S_rx1b_buf, _I2S_rx1b_buf+0x2) of size 10 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_I2S_tx0a_buf, _I2S_tx0a_buf+0x2) of size 10 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_I2S_tx0b_buf, _I2S_tx0b_buf+0x2) of size 10 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_I2S_tx2a_buf, _I2S_tx2a_buf+0x2) of size 10 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_I2S_tx2b_buf, _I2S_tx2b_buf+0x2) of size 10 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_TDM_rx1a_buf, _TDM_rx1a_buf+0x4) of size 20 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_TDM_tx0a_buf, _TDM_tx0a_buf+0x4) of size 20 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_TDM_tx0b_buf, _TDM_tx0b_buf+0x4) of size 20 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_TDM_tx2a_buf, _TDM_tx2a_buf+0x4) of size 20 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_TDM_tx2b_buf, _TDM_tx2b_buf+0x4) of size 20 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_AD1938_Regs_Read, _AD1938_Regs_Read+0x16) of size 110 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_spiFlag, _spiFlag+0x1) of size 5 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_UART_DEBUG_BUFFER, _UART_DEBUG_BUFFER+0x100) of size 1280 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_UART_DEBUG_BUFFER_RX, _UART_DEBUG_BUFFER_RX+0x100) of size 1280 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_LockTest, _LockTest+0x1) of size 5 bytes from '.\src\init.doj(seg_dmda)'
+Eliminated object (_Init_SRC, ._Init_SRC.end) of size 44 bytes from '.\src\init.doj(seg_swco)'
+Eliminated object (_Init_SRAM, ._Init_SRAM.end) of size 32 bytes from '.\src\init.doj(seg_swco)'
+Eliminated object (_enable_SPORT012_I2S_mode, ._enable_SPORT012_I2S_mode.end) of size 294 bytes from '.\src\init.doj(seg_swco)'
+Eliminated object (_Init_AMI, ._Init_AMI.end) of size 46 bytes from '.\src\init.doj(seg_swco)'
+Eliminated object (_Init_TWI_TempSensor, ._Init_TWI_TempSensor.end) of size 12 bytes from '.\src\init.doj(seg_swco)'
+Eliminated object (_Get1939Register, ._Get1939Register.end) of size 260 bytes from '.\src\init.doj(seg_swco)'
+Eliminated object (_Init_DAI_I2S, ._Init_DAI_I2S.end) of size 590 bytes from '.\src\init.doj(seg_swco)'
+Eliminated object (_g_nNumLEDs, _g_nNumLEDs+0x1) of size 5 bytes from '.\src\led.doj(seg_dmda)'
+Eliminated object (_g_LEDs, _g_LEDs+0x8) of size 40 bytes from '.\src\led.doj(seg_dmda)'
+Eliminated object (_state.0, _state.0+0x1) of size 5 bytes from '.\src\led.doj(seg_dmda)'
+Eliminated object (_I2S_rx1a_buf, _I2S_rx1a_buf+0x2) of size 10 bytes from '.\src\led.doj(seg_dmda)'
+Eliminated object (_I2S_rx1b_buf, _I2S_rx1b_buf+0x2) of size 10 bytes from '.\src\led.doj(seg_dmda)'
+Eliminated object (_I2S_tx0a_buf, _I2S_tx0a_buf+0x2) of size 10 bytes from '.\src\led.doj(seg_dmda)'
+Eliminated object (_I2S_tx0b_buf, _I2S_tx0b_buf+0x2) of size 10 bytes from '.\src\led.doj(seg_dmda)'
+Eliminated object (_I2S_tx2a_buf, _I2S_tx2a_buf+0x2) of size 10 bytes from '.\src\led.doj(seg_dmda)'
+Eliminated object (_I2S_tx2b_buf, _I2S_tx2b_buf+0x2) of size 10 bytes from '.\src\led.doj(seg_dmda)'
+Eliminated object (_TDM_rx1a_buf, _TDM_rx1a_buf+0x4) of size 20 bytes from '.\src\led.doj(seg_dmda)'
+Eliminated object (_TDM_tx0a_buf, _TDM_tx0a_buf+0x4) of size 20 bytes from '.\src\led.doj(seg_dmda)'
+Eliminated object (_TDM_tx0b_buf, _TDM_tx0b_buf+0x4) of size 20 bytes from '.\src\led.doj(seg_dmda)'
+Eliminated object (_TDM_tx2a_buf, _TDM_tx2a_buf+0x4) of size 20 bytes from '.\src\led.doj(seg_dmda)'
+Eliminated object (_TDM_tx2b_buf, _TDM_tx2b_buf+0x4) of size 20 bytes from '.\src\led.doj(seg_dmda)'
+Eliminated object (_LED_Bar, ._LED_Bar.end) of size 140 bytes from '.\src\led.doj(seg_swco)'
+Eliminated object (_LED_Bar_Reverse, ._LED_Bar_Reverse.end) of size 132 bytes from '.\src\led.doj(seg_swco)'
+Eliminated object (_LED_Bar_BacknForth, ._LED_Bar_BacknForth.end) of size 200 bytes from '.\src\led.doj(seg_swco)'
+Eliminated object (_Blink_LED, ._Blink_LED.end) of size 110 bytes from '.\src\led.doj(seg_swco)'
+Eliminated object (_ClearSet_LED_Bank, ._ClearSet_LED_Bank.end) of size 134 bytes from '.\src\led.doj(seg_swco)'
+Eliminated object (_Strobe_LEDs, ._Strobe_LEDs.end) of size 420 bytes from '.\src\led.doj(seg_swco)'
+Eliminated object (_fir_right_in1_tcb, ._fir_right_in1_tcb.end) of size 65 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_fir_left_in1_tcb, ._fir_left_in1_tcb.end) of size 65 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_fir_right_in2_tcb, ._fir_right_in2_tcb.end) of size 65 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_fir_left_in2_tcb, ._fir_left_in2_tcb.end) of size 65 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_pcount, _pcount+0x1) of size 5 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (.spowera.60, .spowera.60+0xe) of size 70 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_gain.64, _gain.64+0x1) of size 5 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_Signal, _Signal+0x7) of size 35 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_Channel, _Channel+0x9) of size 45 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_I2S_rx1a_buf, _I2S_rx1a_buf+0x2) of size 10 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_I2S_rx1b_buf, _I2S_rx1b_buf+0x2) of size 10 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_I2S_tx0a_buf, _I2S_tx0a_buf+0x2) of size 10 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_I2S_tx0b_buf, _I2S_tx0b_buf+0x2) of size 10 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_I2S_tx2a_buf, _I2S_tx2a_buf+0x2) of size 10 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_I2S_tx2b_buf, _I2S_tx2b_buf+0x2) of size 10 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_TDM_rx1a_buf, _TDM_rx1a_buf+0x4) of size 20 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_TDM_tx0a_buf, _TDM_tx0a_buf+0x4) of size 20 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_TDM_tx0b_buf, _TDM_tx0b_buf+0x4) of size 20 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_TDM_tx2a_buf, _TDM_tx2a_buf+0x4) of size 20 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_TDM_tx2b_buf, _TDM_tx2b_buf+0x4) of size 20 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_f_out1, _f_out1+0x863) of size 10735 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_f_out2, _f_out2+0x863) of size 10735 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_f_out3, _f_out3+0x863) of size 10735 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_f_out4, _f_out4+0x863) of size 10735 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_f_temp, _f_temp+0x863) of size 10735 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_acc_over, _acc_over+0x1) of size 5 bytes from '.\src\processing.doj(seg_dmda)'
+Eliminated object (_cmatmlt, ._cmatmlt.end) of size 368 bytes from '.\src\processing.doj(seg_swco)'
+Eliminated object (_sig_detect, ._sig_detect.end) of size 188 bytes from '.\src\processing.doj(seg_swco)'
+Eliminated object (_searching, ._searching.end) of size 110 bytes from '.\src\processing.doj(seg_swco)'
+Eliminated object (_ACC_MAC_ISR, ._ACC_MAC_ISR.end) of size 20 bytes from '.\src\processing.doj(seg_swco)'
+Eliminated object (_ACC_DMA_ISR, ._ACC_DMA_ISR.end) of size 20 bytes from '.\src\processing.doj(seg_swco)'
+Eliminated object (_gain, ._gain.end) of size 368 bytes from '.\src\processing.doj(seg_swco)'
+Eliminated object (_powerGain, ._powerGain.end) of size 84 bytes from '.\src\processing.doj(seg_swco)'
+Eliminated object (_phase_delay, ._phase_delay.end) of size 316 bytes from '.\src\processing.doj(seg_swco)'
+Eliminated object (_filtering, ._filtering.end) of size 260 bytes from '.\src\processing.doj(seg_swco)'
+Eliminated object (_pulse_detect, ._pulse_detect.end) of size 916 bytes from '.\src\processing.doj(seg_swco)'
+Eliminated object (_PID_gain, ._PID_gain.end) of size 184 bytes from '.\src\processing.doj(seg_swco)'
+Eliminated object (_adi_int_ClearPending, ._adi_int_ClearPending.end) of size 14 bytes from 'libssl.dlb[adi_int.doj](seg_swco)'
+Eliminated object (_adi_int_UninstallHandler, ._adi_int_UninstallHandler.end) of size 30 bytes from 'libssl.dlb[adi_int.doj](seg_swco)'
+Eliminated object (_adi_int_EnableInt, ._adi_int_EnableInt.end) of size 66 bytes from 'libssl.dlb[adi_int.doj](seg_swco)'
+Eliminated object (__adi_osal_InitInterrupts, .__adi_osal_InitInterrupts.end) of size 14 bytes from 'libosal_noos.dlb[adi_osal_arch_c.doj](seg_swco)'
+Eliminated object (__adi_osal_MemAlloc, .__adi_osal_MemAlloc.end) of size 94 bytes from 'libosal_noos.dlb[adi_osal_arch_c.doj](seg_swco)'
+Eliminated object (__adi_osal_MemFree, .__adi_osal_MemFree.end) of size 34 bytes from 'libosal_noos.dlb[adi_osal_arch_c.doj](seg_swco)'
+Eliminated object (_adi_osal_DeactivateHandler, ._adi_osal_DeactivateHandler.end) of size 34 bytes from 'libosal_noos.dlb[adi_osal_arch_c.doj](seg_swco)'
+Eliminated object (_adi_osal_UninstallHandler, ._adi_osal_UninstallHandler.end) of size 44 bytes from 'libosal_noos.dlb[adi_osal_arch_c.doj](seg_swco)'
+Eliminated object (_fputc, ._fputc.end) of size 38 bytes from 'libio.dlb[fputc_any.doj](seg_swco)'
+Eliminated object (__fflush_all, .__fflush_all.end) of size 104 bytes from 'libio.dlb[fflush_any.doj](seg_swco)'
+Eliminated object (_fflush, ._fflush.end) of size 56 bytes from 'libio.dlb[fflush_any.doj](seg_swco)'
+Eliminated object (__heap_free, .__heap_free.end) of size 30 bytes from 'libc.dlb[heap_free.doj](seg_swco)'
+Eliminated object (_adi_osal_EnterCriticalRegion, ._adi_osal_EnterCriticalRegion.end) of size 26 bytes from 'libosal_noos.dlb[adi_osal_noos_arch_c.doj](seg_swco)'
+Eliminated object (_adi_osal_ExitCriticalRegion, ._adi_osal_ExitCriticalRegion.end) of size 26 bytes from 'libosal_noos.dlb[adi_osal_noos_arch_c.doj](seg_swco)'
+Eliminated object (__adi_osal_gHandlerTableSize, __adi_osal_gHandlerTableSize+0x1) of size 5 bytes from 'libosal_noos.dlb[adi_osal_arch_int_table.doj](seg_dmda)'
+Eliminated object (_adi_rtl_deactivate_dispatched_handler, ._adi_rtl_deactivate_dispatched_handler.end) of size 108 bytes from 'libc.dlb[dispatched_handler_deactivate.doj](seg_pmco)'
+Eliminated object (.__clear_imask, .__clear_imask.end) of size 320 bytes from 'libc.dlb[dispatched_handler_deactivate.doj](seg_pmco)'
+Eliminated object (.__clear_lirptl, .__clear_lirptl.end) of size 100 bytes from 'libc.dlb[dispatched_handler_deactivate.doj](seg_pmco)'
+Eliminated object (_adi_rtl_unregister_dispatched_handler, ._adi_rtl_unregister_dispatched_handler.end) of size 14 bytes from 'libc.dlb[dispatched_handler_unregister.doj](seg_pmco)'
+Eliminated object (_adi_rtl_nested_int_disable_count, _adi_rtl_nested_int_disable_count+0x1) of size 5 bytes from 'libc.dlb[rtl_disable_interrupts.doj](seg_dmda)'
+Eliminated object (_adi_rtl_interrupt_state, _adi_rtl_interrupt_state+0x1) of size 5 bytes from 'libc.dlb[rtl_disable_interrupts.doj](seg_dmda)'
+Eliminated object (_adi_rtl_disable_interrupts, ._adi_rtl_disable_interrupts.end) of size 66 bytes from 'libc.dlb[rtl_disable_interrupts.doj](seg_swco)'
+Eliminated object (_adi_rtl_reenable_interrupts, ._adi_rtl_reenable_interrupts.end) of size 58 bytes from 'libc.dlb[rtl_disable_interrupts.doj](seg_swco)'
+Eliminated object (___trunc_ftoi, .___trunc_ftoi.end) of size 54 bytes from 'libcc.dlb[flt_sprt.doj](seg_pmco)'
+Eliminated object (___dtof, .___dtof.end) of size 40 bytes from 'libcc.dlb[flt_sprt.doj](seg_pmco)'
+Eliminated object (___floatunssisf2, .___floatunssisf2.end) of size 48 bytes from 'libcc.dlb[flt_sprt.doj](seg_pmco)'
+Eliminated object (___lib_dtof, .___lib_dtof.end) of size 116 bytes from 'libcc.dlb[lib_ldtof.doj](seg_pmco)'
+]]></EXTENDED_INFO>
+</MSG>
+<MSG id='040DD910' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block0_nw_code']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    app_startup.doj(seg_pmco)
+    app_startup.doj(seg_pmco)
+    .\src\processing.doj(seg_pmco)
+    .\src\sport1_isr_process_samples.doj(seg_pmco)
+    libcc.dlb[divrem_s32.doj](seg_pmco)
+    libcc.dlb[divrem_s64.doj](seg_pmco)
+    libcc.dlb[divrem_u32.doj](seg_pmco)
+    libcc.dlb[divrem_u64.doj](seg_pmco)
+    libcc.dlb[float_divide.doj](seg_pmco)
+    libcc.dlb[flt_sprt.doj](seg_pmco)
+    libcc.dlb[memcpy.doj](seg_pmco)
+    libcc.dlb[strlen.doj](seg_pmco)
+    libc.dlb[adi_fatal_error.doj](seg_pmco)
+    libc.dlb[asinf.doj](seg_pmco)
+    libc.dlb[atanf.doj](seg_pmco)
+    libc.dlb[dispatched_handler_activate.doj](seg_pmco)
+    libc.dlb[dispatched_handler_register.doj](seg_pmco)
+    libc.dlb[int_dispatcher_214xx.doj](seg_pmco)
+    libc.dlb[isinff.doj](seg_pmco)
+    libc.dlb[no_dispatched_handler.doj](seg_pmco)
+    libc.dlb[powf.doj](seg_pmco)
+    libc.dlb[raise_interrupt.doj](seg_pmco)
+    libc.dlb[set_c.doj](seg_pmco)
+    libc.dlb[sinf.doj](seg_pmco)
+    libc.dlb[sqrtf.doj](seg_pmco)
+    libdsp.dlb[cmatmmlt.doj](seg_pmco)
+    libdsp.dlb[conjf.doj](seg_pmco)
+    libdsp.dlb[convolve.doj](seg_pmco)
+    libdsp.dlb[csubf.doj](seg_pmco)
+    libdsp.dlb[matmul.doj](seg_pmco)
+    libdsp.dlb[mattransp.doj](seg_pmco)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='049DC510' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block0_nw_code_prio1']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    libcc.dlb[memcpy.doj](seg_pmco)
+    libc.dlb[adi_fatal_error.doj](seg_pmco)
+    libc.dlb[asinf.doj](seg_pmco)
+    libc.dlb[atanf.doj](seg_pmco)
+    libc.dlb[int_dispatcher_214xx.doj](seg_pmco)
+    libc.dlb[isinff.doj](seg_pmco)
+    libc.dlb[powf.doj](seg_pmco)
+    libc.dlb[set_c.doj](seg_pmco)
+    libc.dlb[sinf.doj](seg_pmco)
+    libc.dlb[sqrtf.doj](seg_pmco)
+    libdsp.dlb[cmatmmlt.doj](seg_pmco)
+    libdsp.dlb[conjf.doj](seg_pmco)
+    libdsp.dlb[convolve.doj](seg_pmco)
+    libdsp.dlb[csubf.doj](seg_pmco)
+    libdsp.dlb[matmul.doj](seg_pmco)
+    libdsp.dlb[mattransp.doj](seg_pmco)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='0421F138' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block0_nw_code_prio3']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    app_startup.doj(seg_pmco)
+    app_startup.doj(seg_pmco)
+    .\src\processing.doj(seg_pmco)
+    .\src\sport1_isr_process_samples.doj(seg_pmco)
+    libcc.dlb[divrem_s32.doj](seg_pmco)
+    libcc.dlb[divrem_s64.doj](seg_pmco)
+    libcc.dlb[divrem_u32.doj](seg_pmco)
+    libcc.dlb[divrem_u64.doj](seg_pmco)
+    libcc.dlb[float_divide.doj](seg_pmco)
+    libcc.dlb[flt_sprt.doj](seg_pmco)
+    libcc.dlb[memcpy.doj](seg_pmco)
+    libcc.dlb[strlen.doj](seg_pmco)
+    libc.dlb[adi_fatal_error.doj](seg_pmco)
+    libc.dlb[asinf.doj](seg_pmco)
+    libc.dlb[atanf.doj](seg_pmco)
+    libc.dlb[dispatched_handler_activate.doj](seg_pmco)
+    libc.dlb[dispatched_handler_register.doj](seg_pmco)
+    libc.dlb[int_dispatcher_214xx.doj](seg_pmco)
+    libc.dlb[isinff.doj](seg_pmco)
+    libc.dlb[no_dispatched_handler.doj](seg_pmco)
+    libc.dlb[powf.doj](seg_pmco)
+    libc.dlb[raise_interrupt.doj](seg_pmco)
+    libc.dlb[set_c.doj](seg_pmco)
+    libc.dlb[sinf.doj](seg_pmco)
+    libc.dlb[sqrtf.doj](seg_pmco)
+    libdsp.dlb[cmatmmlt.doj](seg_pmco)
+    libdsp.dlb[conjf.doj](seg_pmco)
+    libdsp.dlb[convolve.doj](seg_pmco)
+    libdsp.dlb[csubf.doj](seg_pmco)
+    libdsp.dlb[matmul.doj](seg_pmco)
+    libdsp.dlb[mattransp.doj](seg_pmco)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='04A4BAB0' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_sdram_nw_code']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    app_startup.doj(seg_pmco)
+    app_startup.doj(seg_pmco)
+    .\src\processing.doj(seg_pmco)
+    .\src\sport1_isr_process_samples.doj(seg_pmco)
+    libcc.dlb[divrem_s32.doj](seg_pmco)
+    libcc.dlb[divrem_s64.doj](seg_pmco)
+    libcc.dlb[divrem_u32.doj](seg_pmco)
+    libcc.dlb[divrem_u64.doj](seg_pmco)
+    libcc.dlb[float_divide.doj](seg_pmco)
+    libcc.dlb[flt_sprt.doj](seg_pmco)
+    libcc.dlb[memcpy.doj](seg_pmco)
+    libcc.dlb[strlen.doj](seg_pmco)
+    libc.dlb[adi_fatal_error.doj](seg_pmco)
+    libc.dlb[asinf.doj](seg_pmco)
+    libc.dlb[atanf.doj](seg_pmco)
+    libc.dlb[dispatched_handler_activate.doj](seg_pmco)
+    libc.dlb[dispatched_handler_register.doj](seg_pmco)
+    libc.dlb[int_dispatcher_214xx.doj](seg_pmco)
+    libc.dlb[isinff.doj](seg_pmco)
+    libc.dlb[no_dispatched_handler.doj](seg_pmco)
+    libc.dlb[powf.doj](seg_pmco)
+    libc.dlb[raise_interrupt.doj](seg_pmco)
+    libc.dlb[set_c.doj](seg_pmco)
+    libc.dlb[sinf.doj](seg_pmco)
+    libc.dlb[sqrtf.doj](seg_pmco)
+    libdsp.dlb[cmatmmlt.doj](seg_pmco)
+    libdsp.dlb[conjf.doj](seg_pmco)
+    libdsp.dlb[convolve.doj](seg_pmco)
+    libdsp.dlb[csubf.doj](seg_pmco)
+    libdsp.dlb[matmul.doj](seg_pmco)
+    libdsp.dlb[mattransp.doj](seg_pmco)]]></EXTENDED_INFO>
+</MSG>
+</DOCUMENT>

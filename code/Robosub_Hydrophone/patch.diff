@@ -1,0 +1,71 @@
+From a8b77214acf7c4907bf4bec9f9f56c51491c1f08 Mon Sep 17 00:00:00 2001
+From: Pai NoSpirit <Pai NoSpirit>
+Date: Sun, 26 Jun 2016 03:26:19 +0700
+Subject: [PATCH] add timer for check FFT time
+
+---
+ src/Robosub_Hydrophone.c | 22 +++++++++++++++++-----
+ 1 file changed, 17 insertions(+), 5 deletions(-)
+
+diff --git a/src/Robosub_Hydrophone.c b/src/Robosub_Hydrophone.c
+index ce70f6f..9a39f52 100644
+--- a/src/Robosub_Hydrophone.c
++++ b/src/Robosub_Hydrophone.c
+@@ -38,7 +38,9 @@ const char __argv_string[] = "-abc -xyz";
+  * Place program arguments in the following string.
+  */
+ //extern char __argv_string[] = "prog_name -in x.gif -out y.jpeg";
+-clock_t start_t, end_t, start_p_t, end_p_t;
++clock_t start_t, end_t, start_p_t, end_p_t, fft_start, fft_end;
++
++
+ 
+ volatile pm int g_iTrigger = NON_TRIGGER;
+ volatile pm uint32_t g_iSampleIndex = 0;
+@@ -290,6 +292,10 @@ void PrintOutput(OutputResult pm* output) {
+ 
+ float freq_select(float * in)
+ {
++
++	double total_fft ;
++	fft_start = clock() ;
++
+     //fbin = 192./256 = 0.75 ;
+ 	// 192/1024 = 0.1875
+ 	int i;
+@@ -299,6 +305,8 @@ float freq_select(float * in)
+ 	complex_float data[FFT_SIZE] ;
+ 	float data_output[FFT_SIZE] ;
+ 
++
++
+ 	int body = 800;
+ 	for(int k = 0 ; k < FFT_SIZE  ; k++ )
+ 	{
+@@ -346,15 +354,19 @@ float freq_select(float * in)
+ 	{
+ 		freq = dec;
+ 	}
+-	else 	if(dot >= 0.5)
+-			{
+-				freq = dec+1;
+-			}
++	else if(dot >= 0.5)
++	{
++		freq = dec+1;
++	}
+ 
+ 
+ 	//printf("countnum = %d\n", countnum);
+ 	//printf("+++++++++ %f\n",countnum*0.1875) ;
+ 
++	fft_end = clock() ;
++	total_fft = fft_end - fft_start ;
++	printf("Time for FFT : %f\n",(total_fft/400000000)) ;
++
+ 	return (freq);
+ }
+ int main(int argc, char *argv[]) {
+-- 
+2.8.3.windows.1
+
